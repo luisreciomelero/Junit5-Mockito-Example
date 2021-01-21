@@ -26,4 +26,12 @@ public class Calculator {
         result = a*b;
         return result;
     }
+
+    public void longTaskOperation(){
+        try{
+            Thread.sleep(1000);
+        }catch (Exception e){
+
+        }
+    }
 }
